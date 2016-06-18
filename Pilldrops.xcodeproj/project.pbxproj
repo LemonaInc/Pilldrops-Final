@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA97A8551D150C6300738D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8541D150C6300738D5C /* AppDelegate.swift */; };
+		EA97A8571D150C6300738D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8561D150C6300738D5C /* ViewController.swift */; };
+		EA97A85A1D150C6300738D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97A8581D150C6300738D5C /* Main.storyboard */; };
+		EA97A85C1D150C6300738D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA97A85B1D150C6300738D5C /* Assets.xcassets */; };
+		EA97A85F1D150C6300738D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97A85D1D150C6300738D5C /* LaunchScreen.storyboard */; };
+		EA97A86A1D150C6300738D5C /* PilldropsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8691D150C6300738D5C /* PilldropsTests.swift */; };
+		EA97A8751D150C6300738D5C /* PilldropsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8741D150C6300738D5C /* PilldropsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA97A8661D150C6300738D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA97A8491D150C6300738D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA97A8501D150C6300738D5C;
+			remoteInfo = Pilldrops;
+		};
+		EA97A8711D150C6300738D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA97A8491D150C6300738D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA97A8501D150C6300738D5C;
+			remoteInfo = Pilldrops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA97A8511D150C6300738D5C /* Pilldrops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilldrops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97A8541D150C6300738D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA97A8561D150C6300738D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA97A8591D150C6300738D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA97A85B1D150C6300738D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA97A85E1D150C6300738D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA97A8601D150C6300738D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA97A8651D150C6300738D5C /* PilldropsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilldropsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97A8691D150C6300738D5C /* PilldropsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilldropsTests.swift; sourceTree = "<group>"; };
+		EA97A86B1D150C6300738D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA97A8701D150C6300738D5C /* PilldropsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilldropsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97A8741D150C6300738D5C /* PilldropsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilldropsUITests.swift; sourceTree = "<group>"; };
+		EA97A8761D150C6300738D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA97A84E1D150C6300738D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A8621D150C6300738D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A86D1D150C6300738D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA97A8481D150C6300738D5C = {
+			isa = PBXGroup;
+			children = (
+				EA97A8531D150C6300738D5C /* Pilldrops */,
+				EA97A8681D150C6300738D5C /* PilldropsTests */,
+				EA97A8731D150C6300738D5C /* PilldropsUITests */,
+				EA97A8521D150C6300738D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA97A8521D150C6300738D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8511D150C6300738D5C /* Pilldrops.app */,
+				EA97A8651D150C6300738D5C /* PilldropsTests.xctest */,
+				EA97A8701D150C6300738D5C /* PilldropsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA97A8531D150C6300738D5C /* Pilldrops */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8541D150C6300738D5C /* AppDelegate.swift */,
+				EA97A8561D150C6300738D5C /* ViewController.swift */,
+				EA97A8581D150C6300738D5C /* Main.storyboard */,
+				EA97A85B1D150C6300738D5C /* Assets.xcassets */,
+				EA97A85D1D150C6300738D5C /* LaunchScreen.storyboard */,
+				EA97A8601D150C6300738D5C /* Info.plist */,
+			);
+			path = Pilldrops;
+			sourceTree = "<group>";
+		};
+		EA97A8681D150C6300738D5C /* PilldropsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8691D150C6300738D5C /* PilldropsTests.swift */,
+				EA97A86B1D150C6300738D5C /* Info.plist */,
+			);
+			path = PilldropsTests;
+			sourceTree = "<group>";
+		};
+		EA97A8731D150C6300738D5C /* PilldropsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8741D150C6300738D5C /* PilldropsUITests.swift */,
+				EA97A8761D150C6300738D5C /* Info.plist */,
+			);
+			path = PilldropsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA97A8501D150C6300738D5C /* Pilldrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA97A8791D150C6300738D5C /* Build configuration list for PBXNativeTarget "Pilldrops" */;
+			buildPhases = (
+				EA97A84D1D150C6300738D5C /* Sources */,
+				EA97A84E1D150C6300738D5C /* Frameworks */,
+				EA97A84F1D150C6300738D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pilldrops;
+			productName = Pilldrops;
+			productReference = EA97A8511D150C6300738D5C /* Pilldrops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA97A8641D150C6300738D5C /* PilldropsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA97A87C1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsTests" */;
+			buildPhases = (
+				EA97A8611D150C6300738D5C /* Sources */,
+				EA97A8621D150C6300738D5C /* Frameworks */,
+				EA97A8631D150C6300738D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA97A8671D150C6300738D5C /* PBXTargetDependency */,
+			);
+			name = PilldropsTests;
+			productName = PilldropsTests;
+			productReference = EA97A8651D150C6300738D5C /* PilldropsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA97A86F1D150C6300738D5C /* PilldropsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA97A87F1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsUITests" */;
+			buildPhases = (
+				EA97A86C1D150C6300738D5C /* Sources */,
+				EA97A86D1D150C6300738D5C /* Frameworks */,
+				EA97A86E1D150C6300738D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA97A8721D150C6300738D5C /* PBXTargetDependency */,
+			);
+			name = PilldropsUITests;
+			productName = PilldropsUITests;
+			productReference = EA97A8701D150C6300738D5C /* PilldropsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA97A8491D150C6300738D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jaxon Stevens";
+				TargetAttributes = {
+					EA97A8501D150C6300738D5C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EA97A8641D150C6300738D5C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA97A8501D150C6300738D5C;
+					};
+					EA97A86F1D150C6300738D5C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA97A8501D150C6300738D5C;
+					};
+				};
+			};
+			buildConfigurationList = EA97A84C1D150C6300738D5C /* Build configuration list for PBXProject "Pilldrops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA97A8481D150C6300738D5C;
+			productRefGroup = EA97A8521D150C6300738D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA97A8501D150C6300738D5C /* Pilldrops */,
+				EA97A8641D150C6300738D5C /* PilldropsTests */,
+				EA97A86F1D150C6300738D5C /* PilldropsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA97A84F1D150C6300738D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97A85F1D150C6300738D5C /* LaunchScreen.storyboard in Resources */,
+				EA97A85C1D150C6300738D5C /* Assets.xcassets in Resources */,
+				EA97A85A1D150C6300738D5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A8631D150C6300738D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A86E1D150C6300738D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA97A84D1D150C6300738D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97A8571D150C6300738D5C /* ViewController.swift in Sources */,
+				EA97A8551D150C6300738D5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A8611D150C6300738D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97A86A1D150C6300738D5C /* PilldropsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA97A86C1D150C6300738D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97A8751D150C6300738D5C /* PilldropsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA97A8671D150C6300738D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA97A8501D150C6300738D5C /* Pilldrops */;
+			targetProxy = EA97A8661D150C6300738D5C /* PBXContainerItemProxy */;
+		};
+		EA97A8721D150C6300738D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA97A8501D150C6300738D5C /* Pilldrops */;
+			targetProxy = EA97A8711D150C6300738D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA97A8581D150C6300738D5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA97A8591D150C6300738D5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA97A85D1D150C6300738D5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA97A85E1D150C6300738D5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA97A8771D150C6300738D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA97A8781D150C6300738D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA97A87A1D150C6300738D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pilldrops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.Pilldrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA97A87B1D150C6300738D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pilldrops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.Pilldrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA97A87D1D150C6300738D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PilldropsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.PilldropsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilldrops.app/Pilldrops";
+			};
+			name = Debug;
+		};
+		EA97A87E1D150C6300738D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PilldropsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.PilldropsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilldrops.app/Pilldrops";
+			};
+			name = Release;
+		};
+		EA97A8801D150C6300738D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PilldropsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.PilldropsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pilldrops;
+			};
+			name = Debug;
+		};
+		EA97A8811D150C6300738D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PilldropsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.PilldropsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pilldrops;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA97A84C1D150C6300738D5C /* Build configuration list for PBXProject "Pilldrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97A8771D150C6300738D5C /* Debug */,
+				EA97A8781D150C6300738D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA97A8791D150C6300738D5C /* Build configuration list for PBXNativeTarget "Pilldrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97A87A1D150C6300738D5C /* Debug */,
+				EA97A87B1D150C6300738D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA97A87C1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97A87D1D150C6300738D5C /* Debug */,
+				EA97A87E1D150C6300738D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA97A87F1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97A8801D150C6300738D5C /* Debug */,
+				EA97A8811D150C6300738D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA97A8491D150C6300738D5C /* Project object */;
+}
