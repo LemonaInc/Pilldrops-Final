@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F31a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,43 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="homebkgrd" translatesAutoresizingMaskIntoConstraints="NO" id="AqZ-DM-Elm">
+                                <rect key="frame" x="-258" y="-672" width="1475" height="2390"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Lcf-ex-xJA">
+                                <rect key="frame" x="197" y="276" width="216" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="91K-rK-kvM"/>
+                                    <constraint firstAttribute="width" constant="216" id="BsK-ZC-WuK"/>
+                                    <constraint firstAttribute="height" constant="64" id="Jal-4O-IaC"/>
+                                    <constraint firstAttribute="height" constant="64" id="MWX-O8-GNl"/>
+                                    <constraint firstAttribute="width" constant="216" id="UFf-2d-NEv"/>
+                                    <constraint firstAttribute="width" constant="216" id="b58-Am-SHy"/>
+                                    <constraint firstAttribute="width" constant="216" id="hSU-VX-lfg"/>
+                                    <constraint firstAttribute="height" constant="64" id="oQP-0L-8YD"/>
+                                    <constraint firstAttribute="height" constant="64" id="x16-Z0-dMw"/>
+                                    <constraint firstAttribute="width" constant="216" id="z3U-6s-b3e"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="z3U-6s-b3e"/>
+                                        <exclude reference="oQP-0L-8YD"/>
+                                        <exclude reference="hSU-VX-lfg"/>
+                                        <exclude reference="Jal-4O-IaC"/>
+                                        <exclude reference="x16-Z0-dMw"/>
+                                        <exclude reference="MWX-O8-GNl"/>
+                                        <exclude reference="b58-Am-SHy"/>
+                                        <exclude reference="UFf-2d-NEv"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lcf-ex-xJA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LOd-X2-hLO"/>
+                            <constraint firstItem="Lcf-ex-xJA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="s7c-pY-Nt0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +60,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="homebkgrd" width="1475" height="2390"/>
+        <image name="logo" width="510" height="153"/>
+    </resources>
 </document>

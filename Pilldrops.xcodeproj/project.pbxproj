@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA97A8551D150C6300738D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8541D150C6300738D5C /* AppDelegate.swift */; };
-		EA97A8571D150C6300738D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8561D150C6300738D5C /* ViewController.swift */; };
+		EA32A9F21D183C4B00708F6F /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA32A9F11D183C4B00708F6F /* DatePickerDialog.swift */; };
+		EA32A9F41D18400300708F6F /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA32A9F31D18400300708F6F /* DateViewController.swift */; };
 		EA97A85A1D150C6300738D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97A8581D150C6300738D5C /* Main.storyboard */; };
 		EA97A85C1D150C6300738D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA97A85B1D150C6300738D5C /* Assets.xcassets */; };
 		EA97A85F1D150C6300738D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97A85D1D150C6300738D5C /* LaunchScreen.storyboard */; };
 		EA97A86A1D150C6300738D5C /* PilldropsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8691D150C6300738D5C /* PilldropsTests.swift */; };
 		EA97A8751D150C6300738D5C /* PilldropsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8741D150C6300738D5C /* PilldropsUITests.swift */; };
+		EA97A88A1D15160F00738D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8871D15160F00738D5C /* AppDelegate.swift */; };
+		EA97A88B1D15160F00738D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8881D15160F00738D5C /* ViewController.swift */; };
+		EA97A88C1D15160F00738D5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8891D15160F00738D5C /* LoginViewController.swift */; };
+		EA97A89E1D151C3300738D5C /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA97A8981D151C3300738D5C /* AccountKitStrings.bundle */; };
+		EA97A89F1D151C3300738D5C /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA97A8991D151C3300738D5C /* AccountKit.framework */; };
+		EA97A8A11D151DCD00738D5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA97A8A01D151DCD00738D5C /* UIKit.framework */; };
+		EA97A8A31D151DD100738D5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA97A8A21D151DD100738D5C /* AVFoundation.framework */; };
+		EA97A8A61D15252000738D5C /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA97A8A51D15252000738D5C /* Raleway-Medium.ttf */; };
+		EA97A8A91D1528A100738D5C /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA97A8A81D1528A100738D5C /* Raleway-Bold.ttf */; };
+		EA97A8AE1D1528F800738D5C /* JSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8AB1D1528F800738D5C /* JSColor.swift */; };
+		EA97A8AF1D1528F800738D5C /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8AC1D1528F800738D5C /* JSButton.swift */; };
+		EA97A8B01D1528F800738D5C /* JSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97A8AD1D1528F800738D5C /* JSLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA32A9F11D183C4B00708F6F /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		EA32A9F31D18400300708F6F /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		EA97A8511D150C6300738D5C /* Pilldrops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilldrops.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA97A8541D150C6300738D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA97A8561D150C6300738D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA97A8591D150C6300738D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA97A85B1D150C6300738D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA97A85E1D150C6300738D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,19 @@
 		EA97A8701D150C6300738D5C /* PilldropsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilldropsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA97A8741D150C6300738D5C /* PilldropsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilldropsUITests.swift; sourceTree = "<group>"; };
 		EA97A8761D150C6300738D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA97A8871D15160F00738D5C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA97A8881D15160F00738D5C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA97A8891D15160F00738D5C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA97A8981D151C3300738D5C /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		EA97A8991D151C3300738D5C /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		EA97A8A01D151DCD00738D5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA97A8A21D151DD100738D5C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA97A8A41D1524D400738D5C /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		EA97A8A51D15252000738D5C /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		EA97A8A81D1528A100738D5C /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		EA97A8AB1D1528F800738D5C /* JSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSColor.swift; sourceTree = "<group>"; };
+		EA97A8AC1D1528F800738D5C /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
+		EA97A8AD1D1528F800738D5C /* JSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA97A8A31D151DD100738D5C /* AVFoundation.framework in Frameworks */,
+				EA97A8A11D151DCD00738D5C /* UIKit.framework in Frameworks */,
+				EA97A89F1D151C3300738D5C /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +105,14 @@
 		EA97A8481D150C6300738D5C = {
 			isa = PBXGroup;
 			children = (
+				EA97A8A21D151DD100738D5C /* AVFoundation.framework */,
+				EA97A8A01D151DCD00738D5C /* UIKit.framework */,
 				EA97A8531D150C6300738D5C /* Pilldrops */,
 				EA97A8681D150C6300738D5C /* PilldropsTests */,
 				EA97A8731D150C6300738D5C /* PilldropsUITests */,
 				EA97A8521D150C6300738D5C /* Products */,
+				EA97A8981D151C3300738D5C /* AccountKitStrings.bundle */,
+				EA97A8991D151C3300738D5C /* AccountKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +129,13 @@
 		EA97A8531D150C6300738D5C /* Pilldrops */ = {
 			isa = PBXGroup;
 			children = (
-				EA97A8541D150C6300738D5C /* AppDelegate.swift */,
-				EA97A8561D150C6300738D5C /* ViewController.swift */,
+				EA97A8AA1D1528DF00738D5C /* Annimations */,
+				EA97A8A71D1527C500738D5C /* Fonts */,
+				EA97A8871D15160F00738D5C /* AppDelegate.swift */,
+				EA97A8881D15160F00738D5C /* ViewController.swift */,
+				EA97A8891D15160F00738D5C /* LoginViewController.swift */,
+				EA32A9F31D18400300708F6F /* DateViewController.swift */,
+				EA32A9F11D183C4B00708F6F /* DatePickerDialog.swift */,
 				EA97A8581D150C6300738D5C /* Main.storyboard */,
 				EA97A85B1D150C6300738D5C /* Assets.xcassets */,
 				EA97A85D1D150C6300738D5C /* LaunchScreen.storyboard */,
@@ -123,6 +160,26 @@
 				EA97A8761D150C6300738D5C /* Info.plist */,
 			);
 			path = PilldropsUITests;
+			sourceTree = "<group>";
+		};
+		EA97A8A71D1527C500738D5C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8A81D1528A100738D5C /* Raleway-Bold.ttf */,
+				EA97A8A41D1524D400738D5C /* Raleway-Light.ttf */,
+				EA97A8A51D15252000738D5C /* Raleway-Medium.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		EA97A8AA1D1528DF00738D5C /* Annimations */ = {
+			isa = PBXGroup;
+			children = (
+				EA97A8AB1D1528F800738D5C /* JSColor.swift */,
+				EA97A8AC1D1528F800738D5C /* JSButton.swift */,
+				EA97A8AD1D1528F800738D5C /* JSLayer.swift */,
+			);
+			name = Annimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA97A85F1D150C6300738D5C /* LaunchScreen.storyboard in Resources */,
+				EA97A8A91D1528A100738D5C /* Raleway-Bold.ttf in Resources */,
 				EA97A85C1D150C6300738D5C /* Assets.xcassets in Resources */,
+				EA97A8A61D15252000738D5C /* Raleway-Medium.ttf in Resources */,
 				EA97A85A1D150C6300738D5C /* Main.storyboard in Resources */,
+				EA97A89E1D151C3300738D5C /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA97A8571D150C6300738D5C /* ViewController.swift in Sources */,
-				EA97A8551D150C6300738D5C /* AppDelegate.swift in Sources */,
+				EA32A9F41D18400300708F6F /* DateViewController.swift in Sources */,
+				EA97A8B01D1528F800738D5C /* JSLayer.swift in Sources */,
+				EA97A8AE1D1528F800738D5C /* JSColor.swift in Sources */,
+				EA97A88C1D15160F00738D5C /* LoginViewController.swift in Sources */,
+				EA97A88B1D15160F00738D5C /* ViewController.swift in Sources */,
+				EA97A88A1D15160F00738D5C /* AppDelegate.swift in Sources */,
+				EA32A9F21D183C4B00708F6F /* DatePickerDialog.swift in Sources */,
+				EA97A8AF1D1528F800738D5C /* JSButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +465,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pilldrops/AccountKitStrings.bundle/Resources",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pilldrops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.Pilldrops;
@@ -410,6 +481,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pilldrops/AccountKitStrings.bundle/Resources",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pilldrops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pilldrops.Pilldrops;
@@ -482,6 +558,7 @@
 				EA97A87B1D150C6300738D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA97A87C1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +567,7 @@
 				EA97A87E1D150C6300738D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA97A87F1D150C6300738D5C /* Build configuration list for PBXNativeTarget "PilldropsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +576,7 @@
 				EA97A8811D150C6300738D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

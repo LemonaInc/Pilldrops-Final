@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Pilldrops
+//  
 //
-//  Created by Jaxon Stevens on 6/17/16.
-//  Copyright © 2016 Jaxon Stevens. All rights reserved.
+//  Created by Jaxon Stevens on 06/20/16
+//  Copyright © 2016 Jaxon Stevebs. All rights reserved.
 //
 
 import UIKit
